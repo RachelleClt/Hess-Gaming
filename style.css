@@ -10,6 +10,37 @@
   src : url('fonts/zorque.ttf');
 }
 
+#menu li
+{
+  display : inline-block;
+
+  padding-right : 50px;
+
+}
+#menu a
+{
+  color: beige;
+    text-decoration: none;
+}
+#searchbar input
+{
+    position : absolute;
+    right: 100px;
+    top: 40px;
+    border : none;
+    background-color: #4E5252;
+    height : 35px;
+    border-radius: 5px;
+}
+
+#menu ul
+{
+  text-align: center;
+  text-decoration: none;
+  color: beige;
+}
+
+
 body
 {
   margin:0;
@@ -31,32 +62,32 @@ h1 a
     text-decoration: none;
 }
 
-
 #titre
 {
   padding-left : 10px;
   border-style : solid;
   border-width : 1px;
   background-color : #303030;
-
-
 }
 
+#fin p
+{
+  color: red;
+  font-family : iomanoid;
+  size : 55px;
+}
 h2
 {
   text-align : center;
   font-family : zorque;
   font-size : 15px;
   color : red;
-
 }
 
 header img
 {
   width: 100px;
-  position: absolute;
-  top: 7%;
-  right : 20px;
+  margin-left : 7cm;
 }
 
 header
@@ -64,11 +95,11 @@ header
     font-size : 17px;
     width : 100%;
     padding-bottom : 14px;
+    /*position : fixed;*/
 }
 
 footer
 {
-    font-size : 17px;
     width : 100%;
     margin-top : 105px;
     border-style : solid;
@@ -78,35 +109,12 @@ footer
 
 footer p
 {
+  font-size : 25px;
   font-family :zorque;
   color : beige;
   text-align : center;
 }
 
-#fin+p
-{
-  font-family: : iomanoid ;
-  color : red;
-  size : 32px;
-  text-align : center;
-}
-
-header input
-{
-  background-color: grey;
-  border : none;
-  border-radius: 6px;
-  height : 1cm;S
-  width : 7cm;
-  margin-bottom : 15px;
-  position : absolute;
-  top : 7% ;
-  right : 35px;
-}
-header p
-{
-    margin: 0;
-}
 
 #contenu img
 {
