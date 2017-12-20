@@ -31,11 +31,6 @@ h1 a
     text-decoration: none;
 }
 
-#contenu
-{
-  text-align : center;
-}
-
 #titre
 {
   padding-left : 10px;
@@ -117,15 +112,11 @@ header p
   right : -25px;
 }
 
-#contenu img
-{
-  text-align: center;
-  width : 150px;
-}
  #contenu p
  {
    color : beige;
  }
+
  #contenu
 {
   border-radius:5px;
@@ -133,71 +124,32 @@ header p
   margin-left : 13%;
   margin-right: 13%;
   padding-bottom : 12px;
+  padding-left: 8px;
+  padding-right: 8px;
+  padding-top: 12px;
   background-color: #303030;
-  font-family : zorque;
+  font-family : Arial;
   border-width: 3px;
-  text-align: center;
+  text-align: left;
   border-color : black;
+  margin-bottom: 20px;
+  margin-top: 80px;
 }
 
-#contenunul
+#contenu h3
 {
-  border-radius:5px;
-  border-style:solid;
-  margin-left : 13%;
-  margin-right: 13%;
-  margin-top : 14px;
-  padding-bottom : 12px;
-  background-color:  #303030;
   font-family : zorque;
-  border-width: 3px;
   text-align: center;
-  border-color : black;
+  color: white;
 }
 
-#contenunul img
-{
-  text-align : center ;
-  width : 150px;
-}
-
-#contenunul p
-{
-  color : beige;
-}
 #pub
 {
   text-align : center;
   margin-top : 14px;
+  display:inline;
 }
 
-#promo
-{
-  border-radius:5px;
-  border-style:solid;
-  margin-left : 23%;
-  margin-right: 23%;
-  margin-top : 14px;
-  padding-bottom : 12px;
-  background-color: #303030;
-  font-family : zorque;
-  border-width: 1px;
-  text-align: center;
-  border-width: 3px;
-}
-
-#promo img
-{
-  text-align : center ;
-  width : 150px;
-}
-
-#promo p
-{
-  color : beige;
-}
-
-/* FONCER L'IMAGE EN PASSANT LA SOURIS http://memo-web.fr/categorie-css-275.php */
 #contenu img{
 background:#000000;
 display:inline-block;
@@ -209,40 +161,6 @@ display:inline-block;
 -o-transition: opacity 0.9s;
 }
 #contenu a:hover{
-opacity:0.5;
--moz-transition: opacity 0.7s;
--webkit-transition: opacity 0.7s;
--o-transition: opacity 0.7s;
-}
-
-#contenunul img{
-background:#000000;
-display:inline-block;
-}
-
-#contenunul {
--moz-transition: opacity 0.9s;
--webkit-transition: opacity 0.9s;
--o-transition: opacity 0.9s;
-}
-#contenunul a:hover{
-opacity:0.5;
--moz-transition: opacity 0.7s;
--webkit-transition: opacity 0.7s;
--o-transition: opacity 0.7s;
-}
-
-#promo img{
-background:#000000;
-display:inline-block;
-}
-
-#promo{
--moz-transition: opacity 0.9s;
--webkit-transition: opacity 0.9s;
--o-transition: opacity 0.9s;
-}
-#promo a:hover{
 opacity:0.5;
 -moz-transition: opacity 0.7s;
 -webkit-transition: opacity 0.7s;
