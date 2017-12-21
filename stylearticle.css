@@ -1,0 +1,181 @@
+@font-face
+{
+  font-family :iomanoid;
+  src : url('fonts/iomanoid.ttf');
+}
+
+@font-face
+{
+  font-family :zorque;
+  src : url('fonts/zorque.ttf');
+}
+
+@font-face
+{
+  font-family :Neuropol;
+  src : url('fonts/Neuropol.ttf');
+}
+
+#menu li
+{
+  display : inline-block;
+
+  padding-right : 50px;
+
+}
+#menu a
+{
+  color: beige;
+    text-decoration: none;
+}
+#searchbar input
+{
+    position : absolute;
+    right: 100px;
+    top: 40px;
+    border : none;
+    background-color: #4E5252;
+    height : 35px;
+    border-radius: 5px;
+}
+
+#menu ul
+{
+  text-align: center;
+  text-decoration: none;
+  color: beige;
+}
+
+
+body
+{
+  margin:0;
+  background-image: url('ac.jpg');
+  background-attachment:fixed; /*https://openweb.eu.org/articles/background_css*/
+}
+
+h1
+{
+  text-align: center;
+  margin : 0px 0px 0px 0px;
+}
+
+h1 a
+{
+    font-family : iomanoid ;
+    font-size: 55px;
+    color:#CEBBA4;
+    text-decoration: none;
+}
+
+h2
+{
+  text-align : center;
+  font-family : zorque;
+  font-size : 15px;
+  color : red;
+}
+
+#titre
+{
+  padding-left : 10px;
+  border-style : solid;
+  border-width : 1px;
+  background-color : #303030;
+}
+
+footer
+{
+    width : 100%;
+    margin-top : 105px;
+    border-style : solid;
+    border-width : 1px;
+    background-color : #303030;
+}
+
+footer p
+{
+  font-size : 25px;
+  font-family :zorque;
+  color : beige;
+  text-align : center;
+}
+
+
+#fin p
+{
+  color: red;
+  font-family : iomanoid;
+  size : 55px;
+}
+
+#article h1
+{
+  color : red;
+  font-family: zorque;
+  margin-top : 10px;
+  margin-bottom : 25px;
+}
+
+#article img
+{
+  width : 22%;
+  margin-left: 25px;
+  margin-top: 0px;
+  margin-right : 25px;
+  float: left;
+
+}
+
+article p
+{
+  padding-bottom : 100px;
+}
+
+#article
+{
+  border-radius:5px;
+  border-style:solid;
+  margin-left : 13%;
+  margin-right: 13%;
+  background-color: #303030;
+  border-width: 3px;
+  border-color : black;
+  margin-top : 50px;
+  color: beige;
+  padding-bottom : 200px;
+}
+
+#article h2
+{
+  color : beige;
+  font-family : Neuropol;
+  margin-top: 50px;
+  margin-bottom : 80px;
+}
+
+
+#config p
+{
+  display : inline-block;
+  width : 250px;
+  height : 50%;
+  vertical-align: middle;
+  margin-left : 130px;
+  margin-top : 15px;
+}
+
+#imagejeu img
+{
+  margin-bottom : 50px;
+  margin-left : 40px;
+  width : 17%;
+  border-color: beige;
+  border-width: 2px;
+  border-style: solid;
+}
+
+#panier img
+{
+  width : 10%;
+}
