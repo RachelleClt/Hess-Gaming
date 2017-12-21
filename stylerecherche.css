@@ -20,7 +20,7 @@
 #menu a
 {
   color: beige;
-    text-decoration: none;
+  text-decoration: none;
 }
 #searchbar input
 {
@@ -84,6 +84,14 @@ h2
   color : red;
 }
 
+h3
+{
+  text-align : center;
+  font-family : zorque;
+  font-size : 15px;
+  color : white;
+}
+
 header img
 {
   width: 100px;
@@ -118,13 +126,18 @@ footer p
 
 #contenu img
 {
-  text-align: center;
-  width : 150px;
+  width : 22%;
+  margin-left: 25px;
+  margin-top: 0px;
+  margin-right : 25px;
+  float: left;
 }
  #contenu p
  {
    color : beige;
+   padding-bottom : 100px;
  }
+
  #contenu
 {
   border-radius:5px;
@@ -138,9 +151,10 @@ footer p
   text-align: center;
   border-color : black;
   margin-top : 50px;
+  margin-bottom: 50px;
 }
 
-#contenunul
+#plaira
 {
   border-radius:5px;
   border-style:solid;
@@ -155,13 +169,12 @@ footer p
   border-color : black;
 }
 
-#contenunul img
+#plaira img
 {
-  text-align : center ;
-  width : 150px;
+  width :15%;
 }
 
-#contenunul p
+#plaira p
 {
   color : beige;
 }
@@ -169,32 +182,6 @@ footer p
 {
   text-align : center;
   margin-top : 14px;
-}
-
-#promo
-{
-  border-radius:5px;
-  border-style:solid;
-  margin-left : 23%;
-  margin-right: 23%;
-  margin-top : 14px;
-  padding-bottom : 12px;
-  background-color: #303030;
-  font-family : zorque;
-  border-width: 1px;
-  text-align: center;
-  border-width: 3px;
-}
-
-#promo img
-{
-  text-align : center ;
-  width : 150px;
-}
-
-#promo p
-{
-  color : beige;
 }
 
 /* FONCER L'IMAGE EN PASSANT LA SOURIS http://memo-web.fr/categorie-css-275.php */
@@ -215,34 +202,17 @@ opacity:0.5;
 -o-transition: opacity 0.7s;
 }
 
-#contenunul img{
+#plaira img{
 background:#000000;
 display:inline-block;
 }
 
-#contenunul {
+#plaira {
 -moz-transition: opacity 0.9s;
 -webkit-transition: opacity 0.9s;
 -o-transition: opacity 0.9s;
 }
-#contenunul a:hover{
-opacity:0.5;
--moz-transition: opacity 0.7s;
--webkit-transition: opacity 0.7s;
--o-transition: opacity 0.7s;
-}
-
-#promo img{
-background:#000000;
-display:inline-block;
-}
-
-#promo{
--moz-transition: opacity 0.9s;
--webkit-transition: opacity 0.9s;
--o-transition: opacity 0.9s;
-}
-#promo a:hover{
+#plaira a:hover{
 opacity:0.5;
 -moz-transition: opacity 0.7s;
 -webkit-transition: opacity 0.7s;
