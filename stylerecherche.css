@@ -123,13 +123,15 @@ footer p
   text-align : center;
 }
 
+#contenu a
+{
+  color: white;
+}
 
 #contenu img
 {
   width : 22%;
-  margin-left: 25px;
-  margin-top: 0px;
-  margin-right : 25px;
+  margin-left: 80px;
   float: left;
 }
  #entier2
@@ -190,11 +192,6 @@ footer p
 #plaira p
 {
   color : beige;
-}
-#pub
-{
-  text-align : center;
-  margin-top : 14px;
 }
 
 /* FONCER L'IMAGE EN PASSANT LA SOURIS http://memo-web.fr/categorie-css-275.php */
