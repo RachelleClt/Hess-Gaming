@@ -192,6 +192,13 @@ footer
     background-color : #303030;
 }
 
+#fin p
+{
+  color: red;
+  font-family : iomanoid;
+  size : 55px;
+}
+
 footer p
 {
   font-size : 25px;
