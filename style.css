@@ -70,7 +70,7 @@ h1 a
   background-color : #303030;
 }
 
-#fin p
+#fin 
 {
   color: red;
   font-family : iomanoid;
@@ -121,7 +121,7 @@ footer p
   text-align: center;
   width : 150px;
 }
- #contenu p
+ #contenu h3
  {
    color : beige;
  }
@@ -161,7 +161,7 @@ footer p
   width : 150px;
 }
 
-#contenunul p
+#contenunul h3
 {
   color : beige;
 }
@@ -192,7 +192,7 @@ footer p
   width : 150px;
 }
 
-#promo p
+#promo h3
 {
   color : beige;
 }
