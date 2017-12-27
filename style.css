@@ -76,6 +76,7 @@ h1 a
   font-family : iomanoid;
   size : 55px;
 }
+
 h2
 {
   text-align : center;
@@ -144,7 +145,7 @@ footer p
 {
   border-radius:5px;
   border-style:solid;
-  margin-left : 13%;
+  margin-left : 20%;
   margin-right: 13%;
   margin-top : 14px;
   padding-bottom : 12px;

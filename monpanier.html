@@ -3,22 +3,74 @@
     <head>
       <title>Hess Gaming</title>
       <meta charset="UTF-8">
-		    <link rel="stylesheet" type="text/css" href="style.css"/>
+		    <link rel="stylesheet" type="text/css" href="stylepanier.css"/>
+        <link rel="stylesheet" href="font-awesome-4.7.0/css/font-awesome.min.css">
     </head>
     <body>
 <header>
   <section id="titre">
     <h1><a href="index.html">Hess Gaming</a></h1>
     <h2>Achète nos jeux STP !</h2>
-    <a href="monpanier.html"><img src="panier.png" alt="Mon Panier"/></a>
-  </section>
-  <section id="barre">
-    <p>recharcghe</p>
-    <div align="center" style="text-align: left;">
-             <input type="search" placeholder="Tu veux quoi, cousin ?" name="Rechercher">
-             <br />
+    <div id="menu">
+      <ul>
+        <li><a href="index.html"> Accueil </a></li>
+        <li><a href="Presentation.html"> Qui sommes-nous ? </a></li>
+        <li><a href="monpanier.html"> Mon Panier </a></li>
+      </ul>
+    </div>
+    <div id="searchbar">
+        <form action="">
+            <input class="champ" type="text" placeholder="Il te faut quoi, cousin ?"/>
+            <input class="bouton" type="button" value=" " />
+        </form>
     </div>
   </section>
-</header>
+  </header>
+  <section id="panier">
+  <h1>Mon Panier</h1>
+</section>
+  <section id="panier1">
+      <a href="article.html"><img src="pubg.jpg" alt="Player Unknow Battleground"/></a>
+      <h2> Player Unknown Battleground </h2>
+      <p> Disponibilité : 1000 (on vend pas beaucoup)</p>
+      <p>PRIX : 89€</p>
+  </section>
+    <section id="panier2">
+      <a href="article.html"><img src="csgo.jpg" alt="Counter Strike : Global Offensive"/></a>
+      <h2> Counter Strike : Global Offensive</h2>
+      <p> Disponibilité : 200 </p>
+      <p>Prix : 89€ (pas cher)</p>
+    </section>
+  <section id="panier3">
+    <h1> Total : 200€ (il y a les tips obligatoire)</h1>
+    <form method="post" action="traitement.php">
+       <p>
+           <label for="pays">Dans quel pays habitez-vous ?</label><br/>
+           <select name="pays" id="pays">
+               <option>France</option>
+               <option>Espagne</option>
+               <option>Italie</option>
+               <option>Royaume-Uni</option>
+               <option>Canada</option>
+               <option>États-Unis</option>
+           </select>
+       </p>
+    </form>
+    <form method="post" action="traitement.php">
+       <p>
+           <label for="pays">Votre adresse e-mail</label><br/>
+           <input placeholder="email">
+         </p>
+      </form>
+      <button> Valider </button>
+
+
+  </section>
+  <footer>
+    <p> Remonte poto il y a rien a acheter ici </p>
+  <section id="fin">
+    <p>hg</p>
+  </section>
+  </footer>
     </body>
 </html>

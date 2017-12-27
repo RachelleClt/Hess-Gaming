@@ -143,7 +143,7 @@ article p
   border-color : black;
   margin-top : 50px;
   color: beige;
-  padding-bottom : 200px;
+  padding-bottom : 80px;
 }
 
 #article h2
@@ -161,15 +161,15 @@ article p
   width : 250px;
   height : 50%;
   vertical-align: middle;
-  margin-left : 130px;
+  margin-left : 200px;
   margin-top : 15px;
 }
 
 #imagejeu img
 {
   margin-bottom : 50px;
-  margin-left : 40px;
-  width : 17%;
+  margin-left : 20px;
+  width : 13%;
   border-color: beige;
   border-width: 2px;
   border-style: solid;
@@ -178,4 +178,22 @@ article p
 #panier img
 {
   width : 10%;
+}
+
+h2 a
+{
+  text-decoration: none;
+  color : beige;
+  margin-left : 50px;
+}
+
+textarea
+{
+  width : 50%;
+}
+
+#avis
+{
+  margin-top : 50px;
+  text-align: center;
 }
