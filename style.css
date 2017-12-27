@@ -96,7 +96,6 @@ header
     font-size : 17px;
     width : 100%;
     padding-bottom : 14px;
-    /*position : fixed;*/
 }
 
 footer
@@ -145,7 +144,7 @@ footer p
 {
   border-radius:5px;
   border-style:solid;
-  margin-left : 20%;
+  margin-left : 13%;
   margin-right: 13%;
   margin-top : 14px;
   padding-bottom : 12px;
